@@ -32,7 +32,9 @@ public class Activity2 extends AppCompatActivity {
         //random number generated
         int random_num = getRandomNum();
 
-        luckyNumberTxt.setText(""+random_num);
+        welcomeTxt.setText(userName+" "+ "your lucky number is...");
+
+        luckyNumberTxt.setText(""+random_num+"!");
         
         share_btn.setOnClickListener(new View.OnClickListener() {
             @Override
